@@ -65,7 +65,7 @@ function SpeechToText() {
           <h1>Speech to Text </h1>
           <h1></h1>
         </div>
-        <div style={{ padding: 2, border: '1px solid', background: 'lightblue' }} onClick={() => setTextToCopy(transcript)}>
+        <div style={{ padding: 2, border: '1px solid', background: 'lightblue', margin: '0 10px' }} onClick={() => setTextToCopy(transcript)}>
           {
             transcript
           }
@@ -78,13 +78,13 @@ function SpeechToText() {
         </div>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: 10 }}>
           <div style={{ marginRight: 10, borderRight: '1px solid', paddingRight: 5 }}>
-            <span style={{ fontSize: 25, fontWeight: 600, color: 'brown' }} className='data-count' data-target='8000'>{counters[0]} </span><h3>project </h3>
+            <span style={{ fontSize: 25, fontWeight: 600, color: 'brown' }} className='data-count' data-target='4000'>{counters[0]} </span><h3>Projects done </h3>
           </div>
           <div style={{ marginRight: 10, borderRight: '1px solid', paddingRight: 5 }}>
-            <span style={{ fontSize: 25, fontWeight: 600, color: 'brown' }} className='data-count' data-target='20000'>{counters[1]} </span><h3>happy </h3>
+            <span style={{ fontSize: 25, fontWeight: 600, color: 'brown' }} className='data-count' data-target='15000'>{counters[1]} </span><h3>Happy Customers</h3>
           </div>
           <div>
-            <span style={{ fontSize: 25, fontWeight: 600, color: 'brown' }} className='data-count' data-target='2000'>{counters[2]}</span><h3>onGoing </h3>
+            <span style={{ fontSize: 25, fontWeight: 600, color: 'brown' }} className='data-count' data-target='500'>{counters[2]}</span><h3>onGoing Projects </h3>
           </div>
 
         </div>
